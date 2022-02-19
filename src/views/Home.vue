@@ -6,7 +6,7 @@
     <el-container class="as-container">
       <el-header>{{$route.name}}</el-header>
       <el-main v-if="$route.name == 'Home'">
-        
+        welcome
       </el-main>
       <el-main v-else>
         <router-view></router-view>
